@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import asRestaurantLogo from "@/assets/asRestaurantLogo";
 
 const Footer = () => {
   return (
@@ -7,11 +8,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">R</span>
+            <div className="w-12 h-12 rounded-full bg-background border border-primary/40 flex items-center justify-center overflow-hidden">
+              <img
+                src={asRestaurantLogo}
+                alt="A's Restaurant logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-xl font-display font-bold text-foreground">
-              RESTFOOD
+              A&apos;S RESTAURANT
             </span>
           </div>
 
@@ -30,7 +35,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-muted-foreground text-sm">
-            © 2026 RestFood. All rights reserved.
+            © 2026 A&apos;S RESTAURANT. All rights reserved.
           </p>
         </div>
       </div>
