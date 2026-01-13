@@ -5,23 +5,23 @@ import dish3 from "@/assets/dish-3.jpg";
 const menuItems = [
   {
     image: dish1,
-    name: "Grilled Salmon",
+    name: "Lechon Kawali",
     description: "Fresh Atlantic salmon with herbs, spices, and seasonal vegetables",
-    price: "$32",
+    price: "PHP 32",
     category: "Seafood",
   },
   {
     image: dish2,
-    name: "Truffle Pasta",
+    name: "Glazed Chicken Wings",
     description: "Creamy fettuccine with wild mushrooms and black truffle shavings",
-    price: "$28",
+    price: "PHP 28",
     category: "Pasta",
   },
   {
     image: dish3,
-    name: "Prime Ribeye",
+    name: "Crispy Fish Fillet",
     description: "28-day aged beef with rosemary butter and red wine reduction",
-    price: "$45",
+    price: "PHP 45",
     category: "Grill",
   },
 ];
