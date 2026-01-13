@@ -1,5 +1,4 @@
 import heroImage from "@/assets/hero-food.jpg";
-import asRestaurantLogo from "@/assets/asRestaurantLogo";
 
 const Hero = () => {
   return (
@@ -20,13 +19,6 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl">
-          <div className="mb-6 animate-fade-in-up">
-            <img
-              src={asRestaurantLogo}
-              alt="A's Restaurant logo"
-              className="w-32 md:w-40 h-auto"
-            />
-          </div>
           <h1 className="text-5xl md:text-7xl font-display font-bold text-foreground mb-6 leading-tight animate-fade-in-up">
             BEST QUALITY
             <br />
