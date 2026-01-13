@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import asRestaurantLogo from "@/assets/asRestaurantLogo";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -18,11 +19,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-lg">R</span>
+            <div className="w-12 h-12 rounded-full bg-background border border-primary/40 flex items-center justify-center overflow-hidden">
+              <img
+                src={asRestaurantLogo}
+                alt="A's Restaurant logo"
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-xl font-display font-bold text-foreground">
-              RESTFOOD
+              A&apos;S RESTAURANT
             </span>
           </a>
 
