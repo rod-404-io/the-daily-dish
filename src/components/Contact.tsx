@@ -4,12 +4,12 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    details: ["123 Gourmet Street", "New York, NY 10001"],
+    details: ["Alipangpang Pozorrubio"],
   },
   {
     icon: Phone,
     title: "Reservations",
-    details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+    details: ["0954 415 7002"],
   },
   {
     icon: Clock,
