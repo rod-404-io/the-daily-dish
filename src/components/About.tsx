@@ -28,7 +28,7 @@ const About = () => {
             About Us
           </span>
           <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mt-4">
-            Why Choose <span className="text-gradient-gold">Us</span>
+            Why Choose <span className="text-gradient-gold">A's Restaurant?</span>
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
             For over two decades, we've been crafting unforgettable dining experiences 
@@ -60,10 +60,10 @@ const About = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 pt-16 border-t border-border">
           {[
-            { value: "25+", label: "Years Experience" },
-            { value: "50+", label: "Expert Chefs" },
-            { value: "100+", label: "Menu Items" },
-            { value: "10K+", label: "Happy Guests" },
+            { value: "2025", label: "Est. Year" },
+            { value: "10", label: "Expert Chefs" },
+            { value: "20+", label: "Menu Items" },
+            { value: "1K+", label: "Happy Guests" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-4xl md:text-5xl font-display font-bold text-primary">
